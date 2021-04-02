@@ -1,0 +1,32 @@
+body {
+    height: 100vh;
+    width: 100vw;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    grid-column-gap: 0;
+    padding: 30px 5vw;
+    margin: 0;
+    box-sizing: border-box;
+}
+@media (max-width: 900px) {
+    body {
+        grid-template-columns: 1fr;
+    }
+}
+body>* {
+    width: 100%;
+}
+
+h1 {
+    font-size: 4rem;
+}
+@media (max-width: 600px) {
+    h1 {
+        font-size: 2rem;
+    }
+}
+
+body img {
+    width: 100%;
+}
